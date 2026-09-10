@@ -1,0 +1,15 @@
+{
+  "name": "genpark-delaunay-triangulation-bowyer-watson-skill",
+  "version": "1.0.0",
+  "description": "Bowyer-Watson incremental Delaunay triangulation engine constructing empty circumcircle simplex meshes over 2D spatial point clouds.",
+  "tags": [
+    "genpark-skill",
+    "agentic-ai",
+    "delaunay-triangulation",
+    "bowyer-watson",
+    "computational-geometry",
+    "mesh-generation"
+  ],
+  "entrypoint": "client.py",
+  "dependencies": []
+}
