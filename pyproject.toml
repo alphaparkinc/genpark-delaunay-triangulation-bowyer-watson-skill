@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-delaunay-triangulation-bowyer-watson-skill"
+version = "1.0.0"
+description = "Bowyer-Watson incremental 2D Delaunay triangulation with circumcircle tests and cavity retriangulation"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
