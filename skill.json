@@ -1,15 +1,20 @@
 {
   "name": "genpark-delaunay-triangulation-bowyer-watson-skill",
   "version": "1.0.0",
-  "description": "Bowyer-Watson incremental Delaunay triangulation engine constructing empty circumcircle simplex meshes over 2D spatial point clouds.",
-  "tags": [
-    "genpark-skill",
-    "agentic-ai",
+  "description": "Bowyer-Watson incremental 2D Delaunay triangulation with circumcircle tests and cavity retriangulation",
+  "category": "Service",
+  "dependencies": [],
+  "topics": [
+    "mcp",
     "delaunay-triangulation",
     "bowyer-watson",
     "computational-geometry",
-    "mesh-generation"
-  ],
-  "entrypoint": "client.py",
-  "dependencies": []
+    "mesh-generation",
+    "triangulation",
+    "circumcircle",
+    "python-standard-library",
+    "agent-skills",
+    "spatial-topology",
+    "finite-element"
+  ]
 }
