@@ -1,0 +1,6 @@
+name: genpark-delaunay-triangulation-bowyer-watson-skill
+version: 1.0.0
+description: Bowyer-Watson incremental 2D Delaunay triangulation with circumcircle tests and cavity retriangulation
+command: python
+args:
+  - mcp_server.py
