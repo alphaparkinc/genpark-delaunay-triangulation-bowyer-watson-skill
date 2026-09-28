@@ -1,17 +1,8 @@
-from client import BowyerWatsonDelaunay
+from client import DelaunayTriangulation
 
-def main():
-    print("=== Testing Bowyer-Watson Delaunay Triangulation ===")
-    bw = BowyerWatsonDelaunay()
-    pts = [(0.0, 0.0), (1.0, 0.0), (0.0, 1.0), (1.0, 1.0)]
+points = [(0.0, 0.0), (1.0, 0.0), (0.0, 1.0), (1.0, 1.0), (0.5, 0.5)]
+triangles = DelaunayTriangulation.triangulate(points)
 
-    triangles = bw.triangulate(pts)
-    print(f"Computed {len(triangles)} Delaunay triangles:")
-    for t in triangles:
-        print(" ", t)
-
-    assert len(triangles) >= 2
-    print("=== All tests passed successfully! ===")
-
-if __name__ == "__main__":
-    main()
+print(f"Computed {len(triangles)} Delaunay triangles:")
+for i, tri in enumerate(triangles):
+    print(f"  Triangle {i+1}: {tri}")
